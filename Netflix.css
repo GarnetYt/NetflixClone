@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000 ;
+    color: #fff;
+}
+.heder{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Languages{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+.Languages img{
+    width: 10px;
+    margin-left: 10px;
+}
+.ContantMain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.ContantMain h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+
+}
+.ContantMain h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.Email-SingUp{
+    border-radius: 5px ;
+    margin-top: 15px;
+    width: 400px;
+    height: 47px;
+    border-color: #fff;
+    border-width: .1px;
+    background-color: #0000005b;
+    color: #fff;
+    text-align: inherit;
+}
+.Submit{
+    margin: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #db0001;
+    color: #fff;
+    margin-top: 15px;
+    width: 150px;
+    height: 47px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+/*Features*/
+.Features{
+    padding: 50px 12%;
+    font-size: 22px;
+
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.Text-coloum{
+flex-basis: 50%;
+margin-bottom: 20px;
+}
+.Image-Coloum{
+flex-basis: 50%;
+margin-bottom: 20px;
+}
+.Image-Coloum img{
+    display: block;
+    width: 90%;
+    margin: auto;
+
+}
+.Features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.SecondEmail{
+text-align: center;
+    width: 100%;
+    height: 150px;
+}
+.Email-SingUp2{
+    border-radius: 5px ;
+    margin-top: 15px;
+    width: 400px;
+    height: 47px;
+    border-color: #fff;
+    border-width: .1px;
+    background-color: #524c4c86;
+    color: #fff;
+    text-align: inherit;
+}
+.Submit2{
+    margin-left: 10PX;
+    margin: 0;
+    border: 0;
+    border-radius: 5px;
+    background: #db0001;
+    color: #fff;
+    margin-top: 15px;
+    width: 150px;
+    height: 47px;
+    font-size: larger;
+    cursor: pointer; 
+}
+
+
+/*Frequtly asked qustions*/
+.Qustions{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+
+}
+.Qustions h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.Lines{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.Lines li{
+    list-style: none;
+    padding: 5px;
+    width: 100%;
+}
+.Lines li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+input[type='radio']{
+    display: none;
+}
+.Qustions small{
+    font-size: 13px;
+}
+.Footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+.Footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.Footer .Coloum{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.Footer .Coloum a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.Footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+} 
+.Footer button{
+    color: #777;
+    cursor: pointer;
+}
